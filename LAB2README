@@ -1,0 +1,15 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES
+OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS
+ASSIGNMENT.
+
+THIS IS THE README FILE FOR LAB 2.
+
+Student name: Aaditya Gupta
+
+Total time to complete entire lab: 10 hours
+
+Description: The first obstacle I encountered was deciding which data type should be used to store binary and hexadecmial values that are read in from the user. Another obstance I encountered was terminating the program once the encrypted text was outputted. I was able to overcome all of these obstacales.
+
+Running GDB on bit_decode1: I set a breakpoint at the create_key method, then ran the code. When I reached the breakpoint, I used disp/x key, to trace the hexidecmal value of key though the loop. I travered the loop using the next command. When prompted, I entered 0110 for the 4-bit key, and was able to trace through the value of key. This was helpful because I was able to verify that the value of key though every iteration of the loop.
+
+Running GDB on bit_decode2: I was curious and ran gdb on bit_decode2. I did the same thing as a did for bit_decode1, however, I noticed that key ended with a value that I did not expect. The input file had the key value as 1010, and I saw that key ended with 1111 1110 instead of 1010 1010. 
